@@ -54,7 +54,7 @@ right(<span class="hljs-number">90</span>)
 forward(<span class="hljs-number">200</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img1_1.gif" alt="sample1_1.hsp"></p>
+<p><img src="images\img1_1.gif" alt="sample1_1.hsp"></p>
 <p>画面に亀が表示されて移動し、線を描画しましたね。</p>
 <p>さて、早速プログラムを分解してみましょう。</p>
 <p>まず一行目の <code>#include &quot;turtle.as&quot;</code> については今回は説明しません。この亀が使えるようにするおまじないのようなものだと認識してください。</p>
@@ -67,7 +67,7 @@ right(<span class="hljs-number">90</span>)
 forward(<span class="hljs-number">200</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img1_2.gif" alt="sample1_2.hsp"></p>
+<p><img src="images\img1_2.gif" alt="sample1_2.hsp"></p>
 <p>右に進む距離が半分になりましたね。このように括弧の中の数字を変えることで亀が進む距離を変えることができます。</p>
 <p>次に <code>right(90)</code> と書かれていますね。この <code>right()</code> というのは亀の向きを右に回転します。また気づいている人もいると思いますが、括弧の中の角度だけ回転します。この場合は90°回転するので右に直角に曲がっていますね。</p>
 <p>これと同様に <code>left()</code> という命令もあります。こちらは左に括弧の中の角度だけ回転します。つまり <code>right()</code> の逆バージョンですね。ためしに以下のプログラムを実行してみてください。</p>
@@ -79,7 +79,7 @@ leftt(<span class="hljs-number">90</span>)
 forward(<span class="hljs-number">200</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img1_3.gif" alt="sample1_3.hsp"></p>
+<p><img src="images\img1_3.gif" alt="sample1_3.hsp"></p>
 <p>亀が左向きに90°回転しましたね。</p>
 <p>それでは次のプログラムに移ります。</p>
 <p>ではまず以下のプログラムを実行してみてください</p>
@@ -93,7 +93,7 @@ left(<span class="hljs-number">120</span>)
 forward(<span class="hljs-number">200</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img2_1.gif" alt="sample2_1.hsp"></p>
+<p><img src="images\img2_1.gif" alt="sample2_1.hsp"></p>
 <p>正三角形が描かれましたね。</p>
 <p>それではプログラムを分解してみましょう。</p>
 <p>一行ずつ読んでいくと、</p>
@@ -108,7 +108,7 @@ forward(<span class="hljs-number">200</span>)
 <p>これは小学5年生で習った「外角」というものです。</p>
 <p>一直線である180° からそれぞれの角の角度を引いたものですね。</p>
 <p>正三角形は内角(角の角度)が60° であるために左に180°- 60°= 120° 回転しました。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img2_1_1.png" alt="gaikaku"></p>
+<p><img src="images\img2_1_1.png" alt="gaikaku"></p>
 <p>さて、それでは以下の <code>pencolor(red@)</code> という記述を追加してみてください。</p>
 <p>sample2_2.hsp</p>
 <pre><code class="language-HSP"><div><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&quot;turtle.as&quot;</span></span>
@@ -121,7 +121,7 @@ left(<span class="hljs-number">120</span>)
 forward(<span class="hljs-number">200</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img2_2.gif" alt="sample2_2.hsp"></p>
+<p><img src="images\img2_2.gif" alt="sample2_2.hsp"></p>
 <p>線の色が赤色になりましたね。</p>
 <p>この <code>pencolor()</code> という命令は括弧の中に書かれた色へと線の色を変更するものです。色としては:</p>
 <table>
@@ -173,7 +173,7 @@ left(<span class="hljs-number">120</span>)
 forward(<span class="hljs-number">400</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img2_3.gif" alt="sample2_3.hsp"></p>
+<p><img src="images\img2_3.gif" alt="sample2_3.hsp"></p>
 <!--
 先ほどよりも大きな正三角形が描かれましたね。少しおかしな部分は一度置いておいて、まずは新しい命令についてみていきましょう。
 
@@ -218,7 +218,7 @@ left(<span class="hljs-number">120</span>)
 forward(<span class="hljs-number">400</span>)
 </div></code></pre>
 <p>すると以下のような実行結果になるはずです。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img2_4.gif" alt="sample2_34hsp"></p>
+<p><img src="images\img2_4.gif" alt="sample2_34hsp"></p>
 <p>不要な線が引かれませんでしたね。さてそれでは新しい命令を見ていきましょう。<code>penup()</code> とはペンを上げるという意味で、つまり亀が動いても線を描かなくなります。<code>pendown()</code> という命令はその反対で、ペンを下ろして亀が動いたら線を描くようになります。</p>
 <p>これを使い、三角形を描き始める前の最初の点に移動するときは線を描かず、三角形の最初の点についたらペンを下ろし、線を描けるようにします。</p>
 <p>それでは皆さんも自分で作ってみましょう。お題は星型です。
@@ -233,7 +233,7 @@ forward(<span class="hljs-number">200</span>)
 left(<span class="hljs-number">180</span>)
 pendown
 </div></code></pre>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img3_1_1.png" alt="sample3_1_1.hsp"></p>
+<p><img src="images\img3_1_1.png" alt="sample3_1_1.hsp"></p>
 <p>解答例は以下の通りです。</p>
 <p>sample3_1.hsp</p>
 <pre><code class="language-HSP"><div><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&quot;turtle.as&quot;</span></span>
@@ -256,7 +256,7 @@ forward(<span class="hljs-number">400</span>)
 right(<span class="hljs-number">144</span>)
 forward(<span class="hljs-number">400</span>)
 </div></code></pre>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img3_1_2.gif" alt="sample3_1_2.hsp"></p>
+<p><img src="images\img3_1_2.gif" alt="sample3_1_2.hsp"></p>
 <p>144°というのは星形のそれぞれの角が36°であるため、その外角が144°になるということですね。</p>
 <p>実はこれはもう少し短く書くことができます。なぜならばこのコードでは <code>forward(400)</code> と <code>right(144)</code> が複数回使われています。これを繰り返し処理としてまとめることができます。以下のプログラムを実行してみてください。</p>
 <pre><code class="language-HSP"><div><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&quot;turtle.as&quot;</span></span>
@@ -281,9 +281,9 @@ right(<span class="hljs-number">144</span>)
 </div></code></pre>
 <p>を5回実行するということですね。</p>
 <p>では説明は以上となります。あとは各々好きな図形を描いてみてください。いくつかヒントとなる図形を示します。</p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img4_1.png" alt="img4_1"></p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img4_2.png" alt="img4_2"></p>
-<p><img src="file:///c:\Users\HECTD\Documents\dev\micon2022\openCampus\images\img4_3.png" alt="img4_3"></p>
+<p><img src="images\img4_1.png" alt="img4_1"></p>
+<p><img src="images\img4_2.png" alt="img4_2"></p>
+<p><img src="images\img4_3.png" alt="img4_3"></p>
 
         
         
