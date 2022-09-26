@@ -1,23 +1,23 @@
 #include "turtle.as"
 //六芒星 by @ctes091x
 
-goto -60, -200
-clear
+penup
+left(90)
+forward(60)
+left(90)
+forward(150)
+pendown
+right(180)
 
-seth 0
-forward 200
-right 120
-forward 300
-right 120
-forward 300
-right 120
-forward 100
-
-left 60
-forward 100
-right 120
-forward 300
-right 120
-forward 300
-right 120
-forward 200
+repeat 3
+	forward(300)
+	right(120)
+loop
+forward(100)
+left(60)
+backward(200)
+repeat 3
+	forward(300)
+	right(120)
+loop
+ht

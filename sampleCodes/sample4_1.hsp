@@ -10,3 +10,4 @@ repeat 5
 	forward(300)
 	right(72)
 loop
+ht
