@@ -1,0 +1,12 @@
+#include "turtle.as"
+
+penup
+left(90)
+forward(200)
+right(126)
+pendown
+
+repeat 5
+	forward(300)
+	right(72)
+loop

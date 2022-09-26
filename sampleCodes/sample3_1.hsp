@@ -1,0 +1,21 @@
+#include "turtle.as"
+
+;await 5000
+penup
+left(90)
+forward(100)
+left(90)
+forward(200)
+left(180)
+
+pendown
+forward(400)
+right(144)
+forward(400)
+right(144)
+forward(400)
+right(144)
+forward(400)
+right(144)
+forward(400)
+ht
