@@ -47,7 +47,7 @@ sample1_3.hsp
 #include "turtle.as"
 
 forward(100)
-leftt(90)
+left(90)
 forward(200)
 ```
 
